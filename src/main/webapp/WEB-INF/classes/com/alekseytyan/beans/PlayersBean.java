@@ -51,4 +51,11 @@ public class PlayersBean {
     public String parametersAction() {
         return "result";
     }
+
+    public String toUpperCase(){
+        playerName=playerName.toUpperCase();
+        playerSurname=playerSurname.toUpperCase();
+
+        return "results?faces-redirect=true&includeViewParams=true";
+    }
 }
