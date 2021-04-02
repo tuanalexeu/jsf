@@ -1,4 +1,4 @@
-package com.alekseytyan;
+package com.alekseytyan.beans;
 
 
 import javax.faces.bean.ManagedBean;
